@@ -5,7 +5,7 @@ import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
-const YOUTUBE_KEY = "AIzaSyDMv_uN15d4hO6vSvkQt06Wb7eks6_aG7M";
+const YOUTUBE_KEY = process.env.YOUTUBE_API;
 
 class App extends Component {
   state = {
